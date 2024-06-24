@@ -1,12 +1,252 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E67FEACA-3713-449B-A98A-8DD9C85CCC5A}|Services\\Services.csproj|c:\\users\\munir\\documents\\github\\nocash\\services\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67FEACA-3713-449B-A98A-8DD9C85CCC5A}|Services\\Services.csproj|solutionrelative:services\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|c:\\users\\munir\\documents\\github\\nocash\\repositories\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|c:\\users\\munir\\documents\\github\\nocash\\repositories\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921B22D4-D4C4-4663-854C-5EE71EF1A6EE}|WebApplication1\\WebApplication1.csproj|c:\\users\\munir\\documents\\github\\nocash\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921B22D4-D4C4-4663-854C-5EE71EF1A6EE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67FEACA-3713-449B-A98A-8DD9C85CCC5A}|Services\\Services.csproj|c:\\users\\munir\\documents\\github\\nocash\\services\\iservices\\icategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67FEACA-3713-449B-A98A-8DD9C85CCC5A}|Services\\Services.csproj|solutionrelative:services\\iservices\\icategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|c:\\users\\munir\\documents\\github\\nocash\\repositories\\irepository\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepository\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|c:\\users\\munir\\documents\\github\\nocash\\repositories\\irepository\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepository\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921B22D4-D4C4-4663-854C-5EE71EF1A6EE}|WebApplication1\\WebApplication1.csproj|c:\\users\\munir\\documents\\github\\nocash\\webapplication1\\data\\mapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921B22D4-D4C4-4663-854C-5EE71EF1A6EE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\mapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE8E5DB-31DE-4438-AE1A-085A5CF909D5}|DataModels\\DataModels.csproj|c:\\users\\munir\\documents\\github\\nocash\\datamodels\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE8E5DB-31DE-4438-AE1A-085A5CF909D5}|DataModels\\DataModels.csproj|solutionrelative:datamodels\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921B22D4-D4C4-4663-854C-5EE71EF1A6EE}|WebApplication1\\WebApplication1.csproj|c:\\users\\munir\\documents\\github\\nocash\\webapplication1\\dto\\category\\updatecategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921B22D4-D4C4-4663-854C-5EE71EF1A6EE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\category\\updatecategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|c:\\users\\munir\\documents\\github\\nocash\\repositories\\repository\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repository\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|c:\\users\\munir\\documents\\github\\nocash\\repositories\\repository\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F695-51ED-479F-9DE9-67D561B908E0}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repository\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921B22D4-D4C4-4663-854C-5EE71EF1A6EE}|WebApplication1\\WebApplication1.csproj|c:\\users\\munir\\documents\\github\\nocash\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921B22D4-D4C4-4663-854C-5EE71EF1A6EE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67FEACA-3713-449B-A98A-8DD9C85CCC5A}|Services\\Services.csproj|c:\\users\\munir\\documents\\github\\nocash\\services\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67FEACA-3713-449B-A98A-8DD9C85CCC5A}|Services\\Services.csproj|solutionrelative:services\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAqwEIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:14:07.143Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICategoryServices.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Services\\IServices\\ICategoryServices.cs",
+              "RelativeDocumentMoniker": "Services\\IServices\\ICategoryServices.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Services\\IServices\\ICategoryServices.cs",
+              "RelativeToolTip": "Services\\IServices\\ICategoryServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:40:36.919Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Services\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Services\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\Services\\CategoryService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAmwGoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:39:43.177Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\IRepository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\IRepository\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\IRepository\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T12:57:43.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\Repository\\UnitOfWork.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAawCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:57:50.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\IRepository\\ICategoryRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository\\ICategoryRepo.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\IRepository\\ICategoryRepo.cs",
+              "RelativeToolTip": "Repositories\\IRepository\\ICategoryRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:43:48.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\IRepository\\IGenericRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository\\IGenericRepo.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\IRepository\\IGenericRepo.cs",
+              "RelativeToolTip": "Repositories\\IRepository\\IGenericRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:26:38.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\DataModels\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "DataModels\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\DataModels\\CategoryModel.cs",
+              "RelativeToolTip": "DataModels\\CategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:56:37.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\WebApplication1\\Data\\MapperProfiles.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\MapperProfiles.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\WebApplication1\\Data\\MapperProfiles.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\MapperProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T12:49:10.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\WebApplication1\\DTO\\Category\\UpdateCategoryModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTO\\Category\\UpdateCategoryModel.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\WebApplication1\\DTO\\Category\\UpdateCategoryModel.cs",
+              "RelativeToolTip": "WebApplication1\\DTO\\Category\\UpdateCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T11:55:54.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\Repository\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\Repository\\GenericRepo.cs",
+              "RelativeToolTip": "Repositories\\Repository\\GenericRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:26:05.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\Repository\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Repositories\\Repository\\DatabaseContext.cs",
+              "RelativeToolTip": "Repositories\\Repository\\DatabaseContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:04:07.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:12:15.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Services\\IServices\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\IServices\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Munir\\Documents\\GitHub\\NoCash\\Services\\IServices\\ICategoryService.cs",
+              "RelativeToolTip": "Services\\IServices\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:41:59.43Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

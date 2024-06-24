@@ -8,8 +8,13 @@ namespace Repositories.IRepository
 {
     public interface IUnitOfWork
     {
-        ITransactionRepo TransactionRepo { get; }
+        ICategoryRepo CategoryRepo { get; set; }
 
         Task CompleteAsync();
+        public int Save();
+        public void Dispose();
+        public void Remove<T>(T entity) where T : class;
+
+       // Task Remove();
     }
 }

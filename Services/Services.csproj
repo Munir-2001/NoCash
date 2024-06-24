@@ -21,4 +21,10 @@
     <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataModels\DataModels.csproj" />
+	  <ProjectReference Include="..\WebApplication1\WebApplication1.csproj" />
+
+  </ItemGroup>
+
 </Project>
