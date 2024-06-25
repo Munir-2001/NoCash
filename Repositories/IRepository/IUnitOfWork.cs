@@ -9,6 +9,8 @@ namespace Repositories.IRepository
     public interface IUnitOfWork
     {
         ICategoryRepo CategoryRepo { get; set; }
+        IEntityRepo EntityRepo { get; set; }
+        ITransactionRepo TransactionRepo { get; set; }
 
         Task CompleteAsync();
         public int Save();

@@ -14,11 +14,17 @@ namespace Repositories.Repository
         private readonly DatabaseContext _context;
         //private readonly ILoggerFactory _loggerFactory;
         public ICategoryRepo CategoryRepo { get; set; }
+        public IEntityRepo EntityRepo { get; set; }
+        public ITransactionRepo TransactionRepo { get; set; }
 
-        public UnitOfWork(DatabaseContext context,/*ILoggerFactory loggerFactory*/ICategoryRepo categoryrepo)
+        public UnitOfWork(DatabaseContext context,/*ILoggerFactory loggerFactory*/ICategoryRepo categoryrepo, IEntityRepo entityrepo, ITransactionRepo transactionRepo)
         {
             _context = context;
             CategoryRepo = categoryrepo;
+            EntityRepo = entityrepo;
+            TransactionRepo = transactionRepo;
+
+
             //_loggerFactory = loggerFactory;
             //var categoryLogger = _loggerFactory.CreateLogger<CategoryRepo>();
             //CategoryObj = new CategoryRepo(_context, categoryLogger);

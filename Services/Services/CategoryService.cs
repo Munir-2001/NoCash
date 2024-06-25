@@ -50,7 +50,7 @@ namespace Services.Services
                     _unitOfWork.CategoryRepo.Delete(categoryDetails);
                     var result = _unitOfWork.CompleteAsync();
 
-                    if (result > 0)
+                    if (result !=null)
                         return true;
                     else
                         return false;
@@ -84,19 +84,18 @@ namespace Services.Services
 
             if (categoryDetails != null)
             {
-                var results = await _unitOfWork.CategoryRepo.GetById(categoryDetails.CategoryId);
+                var results =  _unitOfWork.CategoryRepo.GetById(categoryDetails.CategoryId);
 
-                if (results.CategoryId != null)
+                if (results != null)
                 {
-                    results.CategoryName = categoryDetails.CategoryName;
-                    results.CategoryComments = categoryDetails.CategoryComments;
-                    results.dateModified = DateTime.Now;
-                   
-                    _unitOfWork.CategoryRepo.Update(results);
+                   /* categoryobject.CategoryName = categoryDetails.CategoryName;
+                    results.CategoryComments = categoryDetails.CategoryComments*/;
 
-                    var results = _unitOfWork.CompleteAsync();
+                    _unitOfWork.CategoryRepo.Update(categoryobject);
 
-                    if (results > 0)
+                    
+
+                    if (_unitOfWork.CompleteAsync() !=null)
                         return true;
                     else
                         return false;

@@ -9,6 +9,7 @@ namespace Repositories.IRepository
 {
     public interface ITransactionRepo: IGenericRepo<TransactionModel>
     {
-
+        Task<IEnumerable<CategoryModel>> GetAllCategoryList();
+        Task<IEnumerable<EntityModel>> GetAllEntityList();
     }
 }
