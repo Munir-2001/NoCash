@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataModels
 {
-    public class EntityModel : BaseModel
+    public class EntityModel : BaseModel,IActivatable
     {
         [Key]
         public int EntityId { get; set; }

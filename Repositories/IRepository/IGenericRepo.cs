@@ -1,4 +1,6 @@
 ﻿using Azure;
+using DataModels;
+using Repositories.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +19,11 @@ namespace Repositories.IRepository
 
         //repo say object return karao that is returned in service then mapped to response in controller
         Task<T> GetById(int id);
+        //Task<IEnumerable<T>> GetAll();
         Task<IEnumerable<T>> GetAll();
+        Task<IEnumerable<T>> GetAll<T>() where T : class,IActivatable;
+
+
         Task Add(T entity);
         void Delete(T entity);
         void Update(T entity);

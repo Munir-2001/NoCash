@@ -4,10 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace DataModels
 {
-    public class CategoryModel : BaseModel
+    public class CategoryModel : BaseModel,IActivatable
     {
         [Key]
         public int CategoryId { get; set; }

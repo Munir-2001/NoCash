@@ -21,12 +21,12 @@ namespace Repositories.Repository
 
         public async Task<IEnumerable<CategoryModel>> GetAllCategoryList()
         {
-            return await _categoryRepo.GetAll();
+            return await _categoryRepo.GetAll<CategoryModel>();
         }
         
         public async Task<IEnumerable<EntityModel>> GetAllEntityList()
         {
-            return await _entityRepo.GetAll();
+            return await _categoryRepo.GetAll<EntityModel>();
         }
 
 

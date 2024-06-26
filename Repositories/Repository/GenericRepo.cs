@@ -1,4 +1,5 @@
 ﻿using Azure;
+using DataModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Logging;
@@ -26,10 +27,19 @@ namespace Repositories.Repository
         {
             return await _dbContext.Set<T>().FindAsync(id);
         }
+        public async Task<IEnumerable<T>> GetAll(){
+             return await _dbContext.Set<T>().ToListAsync();
+            // return (IEnumerable<T>)await _dbContext.Set<CategoryModel>().Where(x => x.Active).ToListAsync();
+            // return (IEnumerable<T>)await _dbContext.Set<CategoryModel>().Where(x => x.Active).ToListAsync();
 
-        public async Task<IEnumerable<T>> GetAll()
+
+        }
+
+        public async Task<IEnumerable<T>> GetAll<T>() where T : class, IActivatable
         {
-            return await _dbContext.Set<T>().ToListAsync();
+
+            return (IEnumerable<T>)await _dbContext.Set<CategoryModel>().Where(x => x.Active).ToListAsync();
+
         }
 
         public async Task Add(T entity)
@@ -39,7 +49,7 @@ namespace Repositories.Repository
 
         public void Delete(T entity)
         {
-            _dbContext.Set<T>().Remove(entity);
+            _dbContext.Set<T>().Update(entity);
         }
 
         public void Update(T entity)
@@ -51,59 +61,4 @@ namespace Repositories.Repository
 
 
 }
-    /*protected readonly DatabaseContext _dbcontext;
-    protected DbSet<T> _dbset;
-    protected readonly ILogger _logger;
-    public GenericRepo(DatabaseContext dbcontext,ILogger<GenericRepo<T>> logger)
-    {
-        _dbcontext = dbcontext;
-        _logger= logger;
-        this._dbset = _dbcontext.Set<T>();
-
-    }
-    public virtual Task<Response<T>> Upsert(T model)
-    {
-        throw new NotImplementedException();
-
-
-    }
-
-    public async Task<int> DeleteById(int id)
-    {
-        var dbreponse= await GetById(id);
-        if (dbreponse != null) {
-            _dbset.Remove(dbreponse);
-            return id;
-        }
-        return -1;
-
-    }
-
-    public async Task<IEnumerable<T>> GetAll()
-    {
-            return await _dbset.ToListAsync();
-    }
-
-    public async Task<T>GetById(int id)
-    {
-        var dbresponse= await _dbset.FindAsync(id);
-        return dbresponse;
-        //throw new NotImplementedException();
-    }
-    *//*public async Task<T> GetbyModel(T model) {
-        return await _dbset.FindAsync(model);
-    }*//*
-
-    public async Task<T> UpdateById(T model)
-    {
-        throw new NotImplementedException();
-
-
-    }
-
-    Task<int> IGenericRepo<T>.Upsert(T model)
-    {
-        throw new NotImplementedException();
-    }
-}*/
-
+    

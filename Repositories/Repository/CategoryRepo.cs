@@ -14,6 +14,7 @@ namespace Repositories.Repository
 
         public CategoryRepo(DatabaseContext dbcontext) : base(dbcontext)
         {           
+            
         }
 
         /*public async Task<int> Upsert(CategoryModel model)
@@ -44,5 +45,8 @@ namespace Repositories.Repository
 
 
         }
+        
+
+
     }
 

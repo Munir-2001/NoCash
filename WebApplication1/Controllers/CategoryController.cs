@@ -61,6 +61,7 @@ namespace WebApplication1.Controllers
                         Data = null
                     });
                 }
+                category.Active = false;
                 _unitOfWork.CategoryRepo.Delete(category);
                 await _unitOfWork.CompleteAsync();
                 return Ok(new Response<CategoryModel>
